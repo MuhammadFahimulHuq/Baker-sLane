@@ -1,0 +1,80 @@
+@media only screen and (max-width: 428px) {
+
+  .bakerslanelogo{
+    width: 50%;
+  }
+  .frame-container{
+      display: flex;
+      margin: 5%;
+      justify-content: space-between;
+  }
+  .logo-container{
+      display: flex;
+      justify-content: center;
+  }
+  .order-button{
+      padding: 2px 7px;
+      font-family: 'Anton', sans-serif;
+      font-size: 20px;
+      background-color: #62371E;
+      border-radius: 2px;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border: none;
+      border-radius: 5px;
+  }
+  .order-container{
+      display: flex;
+      justify-content: center;
+      margin: 10% 0%;
+  }
+  .paragraph-container{
+      margin: 0% 15%;
+      text-align: center;
+  }
+  p{
+    font-family: 'Andada Pro', serif;
+    line-height: 20px;
+    font-size: 13px;
+    color: #492916;
+  }
+  h3{
+    font-family: 'Andada Pro', serif;
+    font-weight: 800;
+    margin:10% 0%;
+    color: #492916;
+  }
+  .line-one{
+    border: 1px solid  #492916;
+    width: 45px;
+    margin-top: 10%;
+}
+.line-two{
+    border: 1px solid  #492916;
+    width: 35px;
+    margin-top: 2%;
+
+}
+.line-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+  }
+  .home{
+      height: 100vh;
+    
+      
+    
+  }
+  body{
+    align-items: center;
+    background-color: #FFF7E7;
+    background-image: url('../asset/image/home-background.png');
+    background-repeat: no-repeat;
+    background-size: 428px 110vh
+  }
