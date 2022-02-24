@@ -3,16 +3,18 @@ import bakerslogo from '../asset/image/bakerslane.png'
 import beeimage from '../asset/image/bee.png'
 import '../pages/Home.css'
 import frame1 from '../asset/image/Frame1.png'
-import frame2 from '../asset/image/Frame2png.png'
 import { ContactNav } from '../components/ContactNav'
 import { Navbar } from '../components/Navbar'
+import { NavbarItems } from '../components/NavbarItems'
+
 export const Home = () => {
   return (
-    <div className='home'>
-
-      <div className='frame-container'>
+    <div className='home' id='outer-container'>
+    
+    <div id="page-wrap">
+<div className='frame-container'>
       <img src={frame1} alt='frame1' classname='frame1'/>
-      <Navbar />
+      <NavbarItems pageWrapId={'page-wrap'} outerContainerId={'outer-container'}/>
       </div>
       <div className='logo-container'>
       <img src={bakerslogo} alt='bakerslane' className='bakerslanelogo'/>
@@ -33,6 +35,8 @@ export const Home = () => {
         <div className='line-two'></div>
       </div>
      
+</div>
+  
     </div>
   )
 }

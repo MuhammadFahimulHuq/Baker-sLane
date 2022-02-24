@@ -4,7 +4,7 @@ import '../pages/Menu.css'
 import cake from '../asset/image/cake.jpg'
 export const Menu = () => {
   return (
-    <div className='Menu'>
+    <div className='Menu' id='outer-container'>
       <div className='frame-container'>
         <div></div>
       <Navbar />

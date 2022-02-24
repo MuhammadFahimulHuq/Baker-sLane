@@ -3,3 +3,11 @@
     padding: 0px;
    
 }
+* {
+    box-sizing: border-box;
+  }
+  
+  #page-wrap {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }

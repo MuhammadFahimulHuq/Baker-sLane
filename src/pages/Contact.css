@@ -1,7 +1,7 @@
 .contact{
     height: 100vh;
     overflow: hidden;
-    background-color: #fdd483;
+    background-color: white;
 }
 .line {
     border-bottom: 2px solid #909090;
@@ -18,7 +18,7 @@
     margin: 30px 0px;
 }
 .contact-nav-container h3{
- margin: 30px auto;
+ margin: 10px auto;
  font-size: small;
  text-align: center;
 }
@@ -26,13 +26,82 @@
     margin: auto;
 }
 .form-bg{
- background-color: aliceblue;
+ 
  width: 62%;
  margin: auto;
  border: 1px solid #909090;
  height: 35%;
+ display: flex;
+ flex-direction: column;
+ box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 .form-bg input {
-    padding: 10px;
-    margin: ;
+    padding: 7px;
+    margin: auto;
+    width: 85%;
+font-family: 'Anaheim', sans-serif;
+border: 1px solid #909090;
 }
+.form-bg .first-name{
+    margin-top: 10px;
+}
+.form-bg button{
+width: 85%;
+margin: auto;
+font-family: 'Anaheim', sans-serif;
+background-color: initial;
+background-image: linear-gradient(-180deg, #00D775, #00BD68);
+border-radius: 5px;
+box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+color: #FFFFFF;
+cursor: pointer;
+font-size: small;
+display: inline-block;
+height: 30px;
+margin-bottom: 10px;
+outline: 0;
+overflow: hidden;
+padding: 0 20px;
+pointer-events: auto;
+position: relative;
+text-align: center;
+touch-action: manipulation;
+user-select: none;
+-webkit-user-select: none;
+vertical-align: top;
+white-space: nowrap;
+
+z-index: 9;
+border: 0;
+
+}
+.form-bg button:hover {
+    background: #00bd68;
+  }
+.message-container{
+    text-align: center;
+    margin: 20px auto;
+}
+.message-container h3{
+    font-size: small;
+}
+.message-container .line{
+    margin: 20px auto;
+}
+.review-container{
+    background-color: white;
+    width: 62%;
+    margin: auto;
+    height: 10%;
+    border: 1px solid #909090;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.review-text h3{
+    margin-top: 30px;
+    font-size: smaller;
+    text-align: center;
+   
+}
+
