@@ -4,17 +4,16 @@ import beeimage from '../asset/image/bee.png'
 import '../pages/Home.css'
 import frame1 from '../asset/image/Frame1.png'
 import { ContactNav } from '../components/ContactNav'
-import { Navbar } from '../components/Navbar'
 import { NavbarItems } from '../components/NavbarItems'
 
 export const Home = () => {
   return (
-    <div className='home' id='outer-container'>
-    
+    <div  id='outer-container' className='home'>
+     <NavbarItems pageWrapId={'page-wrap'} outerContainerId={'outer-container'}/>
     <div id="page-wrap">
 <div className='frame-container'>
       <img src={frame1} alt='frame1' classname='frame1'/>
-      <NavbarItems pageWrapId={'page-wrap'} outerContainerId={'outer-container'}/>
+     
       </div>
       <div className='logo-container'>
       <img src={bakerslogo} alt='bakerslane' className='bakerslanelogo'/>

@@ -1,23 +1,27 @@
-import React,{useState} from 'react'
+import React from 'react'
 import { slide as Menu } from 'react-burger-menu';
 import { Navbar } from './Navbar';
 import './NavbarItems.css'
+import {  Link } from "react-router-dom";
 export const NavbarItems = () => {
    
 
   return (
-
-     <Menu customBurgerIcon={<Navbar/>} right width={'410px'}>
-      <a className="menu-item" href="/">
+ 
+   
+ <Menu  customBurgerIcon={<Navbar/>} right width={'410px'}  >
+    
+      <Link className="menu-item" to="/">
         Home
-      </a>
-      <a className="menu-item" href="/salads">
+      </Link>
+      <Link className="menu-item" to="/menu">
         Menu
-      </a>
-      <a className="menu-item" href="/pizzas">
+      </Link>
+      <Link className="menu-item" to="/contact">
         Contact
-      </a>
+      </Link>
     </Menu>
+   
    
   )
   }

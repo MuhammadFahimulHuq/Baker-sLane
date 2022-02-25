@@ -1,17 +1,16 @@
 import React from 'react'
 import { ContactNav } from '../components/ContactNav'
-import { Navbar } from '../components/Navbar'
+
 import '../pages/Contact.css'
 import review1 from '../asset/image/review-1.png'
+import { NavbarItems } from '../components/NavbarItems'
 export const Contact = () => {
   return (
-    <div className='contact'>
-
+    <div className='contact' id='outer-container'>
+    <NavbarItems pageWrapId={'page-wrap'} outerContainerId={'outer-container'}/>
+    <div id="page-wrap">
          <div className='frame-container'>
-        <div>
-
-        </div>
-        <Navbar/>
+     
       </div >
      
       <h3>Contact Us
@@ -36,11 +35,12 @@ export const Contact = () => {
     <div className='line'> </div>
     </div>
   <div className='review-container'>
-   <img src={review1}/>
+   <img src={review1} alt="review"/>
 
   </div>
  <div className='review-text'>
  <h3 >We appreciate your love.</h3>
+ </div>
  </div>
         </div>
   )
