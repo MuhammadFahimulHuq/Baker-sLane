@@ -1,7 +1,7 @@
 .Menu{
     height: 100vh;
     overflow: hidden;
-    background-color: hsl(39, 50%, 95%);
+    background-color: hsl(34, 41%, 97%);
 }
 @media only screen and (max-width: 428px) {
     .menu-line{
@@ -13,39 +13,8 @@
     .menu-title-container{
         display: flex;
     }
-    .card{
-        background-color: rgba(0, 0, 0, 0.507);
-        width: 76%;
-        margin: auto;
-        height: 60%;
-        border-radius: 0px 12px ;
-        box-shadow: 0 3px 15px rgb(0 0 0 / 0.2);
-      
-    }
-    .card-section{
-        display: flex;
-        justify-content: space-between;
-        height: 100%;
-        
-    }
-    .card-img{
-        width: 50%;
-        border-top-right-radius: 12px;
-        object-fit: cover;
-       
-    }
-    .menu-category{
-        margin: 5%;
-    }
-    .menu-category h3{
-        font-family: 'Handlee', cursive;
-        border-bottom:1px solid #FFF7E7;
-    }
-    .menu-category p {
-        color: white;
-        font-family: 'Handlee', cursive;
-    }
- .menu-category .alert{
-     font-size: 0.70rem;
- }
+
+
+ 
+
 }
