@@ -8,3 +8,9 @@
     width: 50%;
     margin: auto;
 }
+.icon-container img:hover{
+    transform: scale(1.5);
+}
+.icon-container img{
+    transition: all .2s ease-in-out;
+}

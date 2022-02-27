@@ -1,51 +1,84 @@
+
+.home{
+  height: 100vh;
+  align-items: center;
+  background-color: #FFF7E7;
+  /* background-image: url('../asset/image/home-background2.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
+}
+.frame-container{
+  display: flex;
+  margin: 0px 50px ;
+  justify-content: space-between;
+
+}
+.frame-container img{
+  width: 100px;
+}
+.logo-container img{
+  width: 350px;
+}
+.logo-container{
+  display: flex;
+  justify-content: center;
+}
+.order-button{
+  padding: 5px 75px;
+  font-family: 'Anton', sans-serif;
+  font-size: 20px;
+  background-color: #62371E;
+  border-radius: 2px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+}
+.order-container{
+  display: flex;
+  justify-content: center;
+  margin: 4% 0%;
+}
+.paragraph-container{
+  margin: 0% 15%;
+  text-align: center;
+}
+p{
+font-family: 'Andada Pro', serif;
+line-height: 20px;
+font-size: 13px;
+color: #492916;
+}
+h3{
+font-family: 'Andada Pro', serif;
+font-weight: 800;
+margin:10% 0%;
+color: #492916;
+}
 @media only screen and (max-width: 428px) {
 
-  .bakerslanelogo{
-    width: 50%;
-  }
   .frame-container{
       display: flex;
-      margin: 5%;
+      margin-left: 20px ;
+      margin-top:  20px;
       justify-content: space-between;
   }
-  .logo-container{
-      display: flex;
-      justify-content: center;
+  .frame-container img{
+    width: 60px;
   }
   .order-button{
-      padding: 2px 7px;
-      font-family: 'Anton', sans-serif;
-      font-size: 20px;
-      background-color: #62371E;
-      border-radius: 2px;
-      color: white;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      border: none;
-      border-radius: 5px;
+    padding: 5px 7px;
+  }
+  .logo-container img{
+    width: 200px;
   }
   .order-container{
-      display: flex;
-      justify-content: center;
-      margin: 10% 0%;
+    margin: 10% 0%;
   }
-  .paragraph-container{
-      margin: 0% 15%;
-      text-align: center;
-  }
-  p{
-    font-family: 'Andada Pro', serif;
-    line-height: 20px;
-    font-size: 13px;
-    color: #492916;
-  }
-  h3{
-    font-family: 'Andada Pro', serif;
-    font-weight: 800;
-    margin:10% 0%;
-    color: #492916;
-  }
+ 
+
   .line-one{
     border: 1px solid  #492916;
     width: 45px;
@@ -63,18 +96,9 @@
     justify-content: center;
     flex-direction: column;
 }
+.home{
+ 
 
-  }
- .home{
-      height: 100vh;
-    
-      
-    
-  }
-  body{
-    align-items: center;
-    background-color: #FFF7E7;
-    background-image: url('../asset/image/home-background.png');
-    background-repeat: no-repeat;
-    background-size: 428px 110vh
+ 
+}
   }

@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/pagination';
+
 
 import cake from '../asset/image/cake.jpg'
 import cupcake from '../asset/image/cupcake.jpg'
