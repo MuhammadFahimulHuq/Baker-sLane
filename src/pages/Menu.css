@@ -1,8 +1,23 @@
 .Menu{
     height: 100vh;
     overflow: hidden;
-    background-color: hsl(34, 41%, 97%);
+    background-color: hsl(0, 0%, 39%);
 }
+.menu-title-container h3{
+font-size: larger;
+font-family: 'Comfortaa', cursive;
+}
+.menu-title-container h3::before{
+    content: '';
+    border: 2px solid black;
+    margin-right: 10px;
+}
+.menu-title-container{
+    width: 65%;
+    margin: 0 auto 3% auto;
+    color: white;
+}
+
 @media only screen and (max-width: 428px) {
     .menu-line{
         border: 1px solid #909090;

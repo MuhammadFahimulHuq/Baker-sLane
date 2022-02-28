@@ -14,7 +14,7 @@ export const Menu = () => {
      
       </div>
       <div className='menu-title-container'>
-      <span className='menu-line'></span><h3>MENU</h3>
+      <h3 >MENU</h3>
       </div>
 <Card />
    

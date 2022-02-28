@@ -1,17 +1,27 @@
 
 .home{
-  height: 100vh;
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
   align-items: center;
-  background-color: #FFF7E7;
-  /* background-image: url('../asset/image/home-background2.jpg');
+  background-color: black;
+  /* background-image: url('../asset/image/contact.jpg');
   background-repeat: no-repeat;
-  background-size: 100% 100%; */
+ background-size: cover; */
+}
+#video{
+  position:fixed;
+  z-index: -1;
+  width: 100%;
+ 
 }
 .frame-container{
   display: flex;
-  margin: 0px 50px ;
+  margin: 15px auto ;
   justify-content: space-between;
-
+  width: 70vw;
 }
 .frame-container img{
   width: 100px;
@@ -28,6 +38,7 @@
   font-family: 'Anton', sans-serif;
   font-size: 20px;
   background-color: #62371E;
+  
   border-radius: 2px;
   color: white;
   text-align: center;
@@ -35,27 +46,54 @@
   display: inline-block;
   border: none;
   border-radius: 5px;
+ 
+  transition: 0.3s;
+}
+.order-button:hover{
+
+  background-color: #a39e9b;
+  color: black;
+
 }
 .order-container{
   display: flex;
   justify-content: center;
-  margin: 4% 0%;
+  margin: 3% 0%;
 }
 .paragraph-container{
-  margin: 0% 15%;
+  margin: 0% auto;
   text-align: center;
+  width: 35%;
 }
-p{
-font-family: 'Andada Pro', serif;
-line-height: 20px;
-font-size: 13px;
-color: #492916;
+.paragraph-container p{
+font-family: 'Comfortaa', cursive;
+line-height: 30px;
+font-size: 1.25rem;
+color: white;
 }
-h3{
-font-family: 'Andada Pro', serif;
+.paragraph-container h3{
+font-family: 'Indie Flower', cursive;
+font-size: 1.50rem;
 font-weight: 800;
-margin:10% 0%;
-color: #492916;
+margin:1% 0%;
+color: white;
+}
+.line-one{
+  border: 1px solid  white;
+  width: 45px;
+ 
+}
+.line-two{
+  border: 1px solid  white;
+  width: 35px;
+  margin-top: 10px;
+
+}
+.line-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 @media only screen and (max-width: 428px) {
 
@@ -70,6 +108,7 @@ color: #492916;
   }
   .order-button{
     padding: 5px 7px;
+    font-size: 15px;
   }
   .logo-container img{
     width: 200px;
@@ -77,8 +116,18 @@ color: #492916;
   .order-container{
     margin: 10% 0%;
   }
- 
-
+  .paragraph-container{
+    margin: 0% auto;
+    text-align: center;
+    width: 70%;
+  }
+  .paragraph-container p{
+    font-size: 0.85rem;
+    line-height: 25px;
+  }
+  .paragraph-container h3{
+    font-size: 1rem;
+  }
   .line-one{
     border: 1px solid  #492916;
     width: 45px;
@@ -97,8 +146,6 @@ color: #492916;
     flex-direction: column;
 }
 .home{
- 
 
- 
 }
   }

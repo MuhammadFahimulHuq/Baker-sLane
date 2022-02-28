@@ -42,8 +42,8 @@
   
   /* General sidebar styles */
   .bm-menu {
-    background: #EC5569;
-    padding: 6.5em 1.5em 0;
+    background: rgb(58, 58, 58);
+    padding: 4.5em 4.5em 0;
     font-size: 1.25em;
   
   }
@@ -76,10 +76,13 @@
     text-align: center;
     text-decoration: none;
     transition: color 0.2s;
-    font-family: 'Anaheim', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    width: 200px;
+    margin-top: 20px;
   }
   
   .bm-item:hover {
     color: rgba(255, 255, 88, 0.829);
   }
 
+ 

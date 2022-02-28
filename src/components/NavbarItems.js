@@ -3,6 +3,7 @@ import { slide as Menu } from 'react-burger-menu';
 import { Navbar } from './Navbar';
 import './NavbarItems.css'
 import {  Link } from "react-router-dom";
+import bakerslogo from '../asset/image/bakerslane.png'
 export const NavbarItems = () => {
    
 
@@ -10,7 +11,7 @@ export const NavbarItems = () => {
  
    
  <Menu  customBurgerIcon={<Navbar/>} right width={'410px'}  >
-    
+      <img src={bakerslogo} alt='bakerslane'/>
       <Link className="menu-item" to="/">
         Home
       </Link>

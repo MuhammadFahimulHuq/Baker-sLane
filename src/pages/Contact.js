@@ -22,11 +22,15 @@ export const Contact = () => {
         <div className='line'> </div>
       </div>
     <div className='form-bg'>
-<input className='first-name' placeholder='First Name'/>
-<input placeholder='Last Name'/>
+      <span className='inner-form'>
+      <input className='first-name' placeholder='First Name'/>
+<input  placeholder='Last Name'/>
+      </span>
+      <span className='inner-form'>
 <input placeholder='Email'/>
 <input placeholder='Phone No'/>
-<input type="text" placeholder='Message'/>
+</span>
+<textarea type="text" id='message' placeholder='Message...'/>
 <button>SEND</button>
   
     </div>
@@ -34,10 +38,10 @@ export const Contact = () => {
     <h3>Leave Us A Message</h3>
     <div className='line'> </div>
     </div>
-  <div className='review-container'>
+  {/* <div className='review-container'>
    <img src={review1} alt="review"/>
 
-  </div>
+  </div> */}
  <div className='review-text'>
  <h3 >We appreciate your love.</h3>
  </div>

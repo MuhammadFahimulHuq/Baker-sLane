@@ -5,10 +5,13 @@ import '../pages/Home.css'
 import frame1 from '../asset/image/Frame2png.png'
 import { ContactNav } from '../components/ContactNav'
 import { NavbarItems } from '../components/NavbarItems'
-
+import video from '../asset/image/video.mp4'
 export const Home = () => {
   return (
     <div  id='outer-container' className='home'>
+      <video autoPlay loop muted id='video'>
+        <source src={video} type='video/mp4'/>
+      </video>
      <NavbarItems pageWrapId={'page-wrap'} outerContainerId={'outer-container'}/>
     <div id="page-wrap">
 <div className='frame-container'>
@@ -19,13 +22,13 @@ export const Home = () => {
       <img src={bakerslogo} alt='bakerslane' className='bakerslanelogo'/>
       </div>
      <div className='order-container'>
-     <button className='order-button'>ORDER NOW</button>
+     <a  class="order-button" role="button" href='https://www.facebook.com/Bakerslane01'>ORDER NOW</a>
      </div>
     <div className='paragraph-container'>
     <p>
         "Baker's Lane" is an online based Bakery. We always grasp the quality by choosing the best ingredients & definitely maintain hygiene which makes you feel like home. Feel free to contact with us anytime along with your any query.
         </p>
-        <h3>Waiting for your buzz.<img src={beeimage} alt='bee' className='bee'/></h3>
+        <h3>waiting for your buzz.<img src={beeimage} alt='bee' className='bee'/></h3>
     </div>
       
       <ContactNav/>
