@@ -5,14 +5,12 @@ import "swiper/css/bundle";
 import { Contact } from './pages/Contact';
 import { Home } from './pages/Home';
 import { Menu } from './pages/Menu';
-import ScrollableContainer from "react-full-page-scroll";
+
 
 
  
 function App() {
-  const PageComponent = ({children}) => {
-    return (<div>{children}</div>)
-  }
+
   return (
     <BrowserRouter>
     <Routes>
