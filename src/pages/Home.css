@@ -36,7 +36,7 @@
 .order-button{
   padding: 5px 75px;
   font-family: 'Anton', sans-serif;
-  font-size: 20px;
+  font-size: clamp(15px,2vw,25px);
   background-color: #62371E;
   
   border-radius: 2px;
@@ -63,7 +63,7 @@
 .paragraph-container{
   margin: 0% auto;
   text-align: center;
-  width: 35%;
+  width: 45vw;
 }
 .paragraph-container p{
 font-family: 'Comfortaa', cursive;
@@ -94,6 +94,21 @@ color: white;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+@media only screen and (max-width: 806px) {
+  .order-button{
+    padding: 5px 30px;
+  }
+  .paragraph-container{
+    width: 60vw;
+  }
+  .paragraph-container p {
+    font-size: 1rem;
+    line-height: 20px;
+  }
+  .paragraph-container h3{
+    font-size: 1.25rem;
+  }
 }
 @media only screen and (max-width: 428px) {
 
@@ -129,12 +144,12 @@ color: white;
     font-size: 1rem;
   }
   .line-one{
-    border: 1px solid  #492916;
+   
     width: 45px;
     margin-top: 10%;
 }
 .line-two{
-    border: 1px solid  #492916;
+ 
     width: 35px;
     margin-top: 2%;
 

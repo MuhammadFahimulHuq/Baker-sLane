@@ -8,7 +8,7 @@ export const Menu = () => {
   return (
     <div  id='outer-container' className='Menu'>
          <NavbarItems pageWrapId={'page-wrap'} outerContainerId={'outer-container'}/>
-         <div id="page-wrap">
+         <div id="page-wrap" >
       <div className='frame-container'>
         <div></div>
      

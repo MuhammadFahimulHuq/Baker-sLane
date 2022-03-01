@@ -2,8 +2,10 @@ import React from 'react'
 import { ContactNav } from '../components/ContactNav'
 
 import '../pages/Contact.css'
-import review1 from '../asset/image/review-1.png'
 import { NavbarItems } from '../components/NavbarItems'
+import{ init } from '@emailjs/browser';
+init("oFx4egvemgUQsm5MW");
+
 export const Contact = () => {
   return (
     <div className='contact' id='outer-container'>
@@ -12,16 +14,18 @@ export const Contact = () => {
          <div className='frame-container'>
      
       </div >
-     
-      <h3>Contact Us
-      <div className='line'> </div>
+      <div className='contact-title-container'>
+    <h3>Contact Us
       </h3>
+      </div>
+    
       <div className='contact-nav-container'>
       <ContactNav />
         <h3>Connect with us on social media</h3>
         <div className='line'> </div>
       </div>
     <div className='form-bg'>
+
       <span className='inner-form'>
       <input className='first-name' placeholder='First Name'/>
 <input  placeholder='Last Name'/>

@@ -4,7 +4,7 @@
     background-color: hsl(0, 0%, 39%);
 }
 .menu-title-container h3{
-font-size: larger;
+font-size: clamp(1.25rem,4vw,2rem);
 font-family: 'Comfortaa', cursive;
 }
 .menu-title-container h3::before{
@@ -19,16 +19,8 @@ font-family: 'Comfortaa', cursive;
 }
 
 @media only screen and (max-width: 428px) {
-    .menu-line{
-        border: 1px solid #909090;
-        width: 60%;
-        height: 0px;
-       margin: auto 0.313rem auto 3.125rem;
-    }
-    .menu-title-container{
-        display: flex;
-    }
-
+ 
+ 
 
  
 

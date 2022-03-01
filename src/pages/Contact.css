@@ -17,20 +17,35 @@
     margin-top: 3%;
     margin-left: 10%;
 }
-.contact h3{
+.contact-title-container{
     width: 65%;
+    margin: 0 auto 3% auto;
+    color: white;
+}
+.contact-title-container h3::before{
+    content: '';
+    border: 2px solid black;
+    margin-right: 10px;
+}
+.contact-title-container h3{
+    font-size: clamp(0.9rem,3vw,1.8rem);
+font-family: 'Comfortaa', cursive;
+}
+.contact h3{
+  
     margin: auto;
     text-transform: uppercase;
     color: white;
     font-family: 'Comfortaa', cursive;
-    font-size: larger;
+    font-size: clamp(1rem,2vw,1.5rem);
+   
 }
 .contact-nav-container{
     margin: 30px 0px;
 }
 .contact-nav-container h3{
  margin: 20px auto;
- font-size: small;
+ font-size: clamp(0.5rem,2vw,1rem);
  text-align: center;
  color: white;
 }
@@ -46,7 +61,7 @@
  display: flex;
  flex-direction: column;
  background-color: #FFFFFF;
- box-shadow: 0 1px 10px white;
+ box-shadow: 0 1px 4px white;
 border-radius: 10px;
 }
 .form-bg input {
@@ -56,14 +71,17 @@ border-radius: 10px;
 font-family: 'Anaheim', sans-serif;
 border: 1px solid #909090;
 font-size: larger;
+border-radius: 5px;
 }
+
 .inner-form{
     display: flex;
 }
 #message{
-    margin: auto;
+    border-radius: 5px;
+    margin: 0 auto;
     width: 97.5%;
-    height: 10vh;
+    height: 18vh;
 font-family: 'Anaheim', sans-serif;
 border: 1px solid #909090;
 font-size: larger;
@@ -107,7 +125,7 @@ border: 0;
     margin: 20px auto;
 }
 .message-container h3{
-    font-size: small;
+    font-size: clamp(0.5rem,2vw,1rem);
 }
 .message-container .line{
     margin: 20px auto;
@@ -125,17 +143,15 @@ border: 0;
 }
 .review-text h3{
     margin-top: 40px;
-    font-size: smaller;
+    font-size: clamp(0.5rem,2vw,1rem);
     text-align: center;
+  
 }
 .review-text h3::after{
     content: url('../asset/image/heart.png');
 }
 @media only screen and (max-width: 428px) {
-    .contact h3{
-        width: 80%;
-        font-size: small;
-    }
+   
     .line {
         border-bottom: 2px solid #909090;
         width: 10%;

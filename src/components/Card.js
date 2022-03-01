@@ -1,5 +1,5 @@
 import React from 'react'
-import {  Pagination } from 'swiper';
+
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -55,7 +55,7 @@ export const Card = () => {
         <h3 >Cupcakes</h3>
         <p>1. Chocolate</p>
         <p>2. Vanilla</p>
-        <p>3. Double Chocolate(Dark/White)</p>
+        <p>3. Double Chocolate (Dark / White )</p>
       
         <p className='alert'>*Send us any cupcake picture with any other required flavor.</p>
         </div>
