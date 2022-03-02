@@ -27,7 +27,7 @@
   width: 100px;
 }
 .logo-container img{
-  width: 350px;
+  width: clamp(120px,18vw,450px);
 }
 .logo-container{
   display: flex;
@@ -63,20 +63,24 @@
 .paragraph-container{
   margin: 0% auto;
   text-align: center;
-  width: 45vw;
+  width: 90vh;
 }
 .paragraph-container p{
 font-family: 'Comfortaa', cursive;
-line-height: 30px;
-font-size: 1.25rem;
+line-height: clamp(10px,2vw,30px);
+font-size: clamp(0.7rem,2vw,1.25rem);
 color: white;
 }
 .paragraph-container h3{
 font-family: 'Indie Flower', cursive;
-font-size: 1.50rem;
+font-size: clamp(0.7rem,2vw,1.5rem);
 font-weight: 800;
 margin:1% 0%;
 color: white;
+}
+.paragraph-container h3::after{
+  content: url('../asset//image/bee.png');
+  width: 20px;
 }
 .line-one{
   border: 1px solid  white;
@@ -102,12 +106,9 @@ color: white;
   .paragraph-container{
     width: 60vw;
   }
-  .paragraph-container p {
-    font-size: 1rem;
-    line-height: 20px;
-  }
+
   .paragraph-container h3{
-    font-size: 1.25rem;
+ 
   }
 }
 @media only screen and (max-width: 428px) {
@@ -125,23 +126,20 @@ color: white;
     padding: 5px 7px;
     font-size: 15px;
   }
-  .logo-container img{
+  /* .logo-container img{
     width: 200px;
-  }
+  } */
   .order-container{
-    margin: 10% 0%;
+    margin: 5% 0%;
   }
   .paragraph-container{
     margin: 0% auto;
     text-align: center;
-    width: 70%;
+  
   }
-  .paragraph-container p{
-    font-size: 0.85rem;
-    line-height: 25px;
-  }
+
   .paragraph-container h3{
-    font-size: 1rem;
+
   }
   .line-one{
    

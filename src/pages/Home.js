@@ -28,7 +28,7 @@ export const Home = () => {
     <p>
         "Baker's Lane" is an online based Bakery. We always grasp the quality by choosing the best ingredients & definitely maintain hygiene which makes you feel like home. Feel free to contact with us anytime along with your any query.
         </p>
-        <h3>waiting for your buzz.<img src={beeimage} alt='bee' className='bee'/></h3>
+        <h3>waiting for your buzz.</h3>
     </div>
       
       <ContactNav/>
