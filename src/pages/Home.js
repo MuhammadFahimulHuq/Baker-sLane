@@ -1,6 +1,5 @@
 import React from 'react'
 import bakerslogo from '../asset/image/bakerslane.png'
-import beeimage from '../asset/image/bee.png'
 import '../pages/Home.css'
 import frame1 from '../asset/image/Frame2png.png'
 import { ContactNav } from '../components/ContactNav'
