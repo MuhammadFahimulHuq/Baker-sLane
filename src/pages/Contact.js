@@ -1,16 +1,16 @@
-import React,{useRef} from 'react'
+import React from 'react'
 import { ContactNav } from '../components/ContactNav'
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 import '../pages/Contact.css'
 import { NavbarItems } from '../components/NavbarItems'
 
 
 export const Contact = () => {
-  const form = useRef();
-  const sendEmail = (e)=>{
-    e.preventDefault();
-    emailjs.sendForm('service_wmm47i4','oFx4egvemgUQsm5MW')
-  }
+  // const form = useRef();
+  // const sendEmail = (e)=>{
+  //   e.preventDefault();
+  //   emailjs.sendForm('service_wmm47i4','oFx4egvemgUQsm5MW')
+  // }
   return (
     <div className='contact' id='outer-container'>
     <NavbarItems pageWrapId={'page-wrap'} outerContainerId={'outer-container'}/>
