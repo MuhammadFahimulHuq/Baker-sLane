@@ -27,7 +27,7 @@
   
   /* Color/shape of close button cross */
   .bm-cross {
-    background: #ffffff;
+    background: black;
   }
   
   /*
@@ -42,12 +42,15 @@
 
   /* General sidebar styles */
   .bm-menu {
-    background: rgb(58, 58, 58);
+    background-color: #f7d3a7;
+    background-image: linear-gradient(90deg, #f7d3a7 0%, #fff0d3 100%);       
     padding: 4.5em 4.5em 0;
     font-size:1.25rem
   
   }
-  
+  .bm-menu-wrap{
+  width: clamp(300px,35vw,410px) !important;
+  }
   /* Morph shape necessary with bubble or elastic */
   .bm-morph-shape {
     fill: #EC5569;
@@ -70,8 +73,8 @@
   }
   .bm-item {
     display: inline-block;
-  
-    color: #ffffff;
+   
+    color: black;
     margin-bottom: 10px;
     text-align: center;
     text-decoration: none;
@@ -79,9 +82,12 @@
     font-family: 'Comfortaa', cursive;
     width: clamp(100px,20vw,200px);
     margin-top: 20px;
+    font-weight: 700;
   }
-  
+  .menu-item{
+    font-size: clamp(1rem,4vw,1.35rem) !important;
+  }
   .bm-item:hover {
-    color: rgba(255, 255, 88, 0.829);
+    color: #EC5569;
   }
 

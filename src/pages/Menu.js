@@ -9,17 +9,15 @@ export const Menu = () => {
     <div  id='outer-container' className='Menu'>
          <NavbarItems pageWrapId={'page-wrap'} outerContainerId={'outer-container'}/>
          <div id="page-wrap" >
-      <div className='frame-container'>
-        <div></div>
      
-      </div>
+      
       <div className='menu-title-container'>
       <h3 >MENU</h3>
       </div>
 <Card />
    
-   
+</div>
       </div>
-      </div>
+      
   )
 }

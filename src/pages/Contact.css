@@ -1,7 +1,9 @@
 .contact{
     height: 100vh;
     overflow: hidden;
-    background-color: rgb(58, 58, 58);
+    background-color: #202020;
+    background-image: linear-gradient(45deg, #202020 0%, #764d30 100%);
+       
     min-width: 100%;
     min-height: 100%;
     position: fixed; 
@@ -18,8 +20,8 @@
     margin-left: 10%;
 }
 .contact-title-container{
-    width: 65%;
-    margin: 0 auto 3% auto;
+    width: 65vw;
+    margin: auto;
     color: white;
 }
 .contact-title-container h3::before{
@@ -54,10 +56,9 @@ font-family: 'Comfortaa', cursive;
 }
 .form-bg{
  
- width: 65%;
+ width: 45%;
  margin: auto;
  border: 1px solid #909090;
- height: 40vh;
  display: flex;
  flex-direction: column;
  background-color: #FFFFFF;
@@ -68,7 +69,7 @@ border-radius: 10px;
     padding: 10px;
     margin: 10px 15px;
     width: 85%;
-font-family: 'Anaheim', sans-serif;
+    font-family: 'Comfortaa', cursive;
 border: 1px solid #909090;
 font-size: larger;
 border-radius: 5px;
@@ -79,27 +80,41 @@ border-radius: 5px;
 }
 #message{
     border-radius: 5px;
-    margin: 0 auto;
-    width: 97.5%;
+    margin: 0 0.8vw;
+    width: 96.5%;
     height: 18vh;
-font-family: 'Anaheim', sans-serif;
+    font-family: 'Comfortaa', cursive;
 border: 1px solid #909090;
 font-size: larger;
 padding: 10px;
+margin-bottom: 10px;
 }
+
+input[placeholder|="Last Name"]{
+    margin-left: 0px;
+}
+input[placeholder|="Phone No"]{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+input[placeholder|="Email"]{
+ 
+    margin-top: 0px;
+}
+
+
 .form-bg button{
-width: 98%;
+width: 97%;
 margin: auto;
-font-family: 'Anaheim', sans-serif;
-background-color: initial;
-background-image: linear-gradient(-180deg, #00D775, #00BD68);
+font-family: 'Comfortaa', cursive;
+background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(147,67,67,1) 0%, rgba(111,27,27,1) 90% );
 border-radius: 5px;
 box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
 color: #FFFFFF;
 cursor: pointer;
-font-size: larger;
+font-size: clamp(0.5rem,2vw,1rem);
 display: inline-block;
-height: 30px;
+height: 45px;
 margin-bottom: 10px;
 outline: 0;
 overflow: hidden;
@@ -118,7 +133,7 @@ border: 0;
 
 }
 .form-bg button:hover {
-    background: #00bd68;
+    background: rgba(147,67,67,1) ;
   }
 .message-container{
     text-align: center;
@@ -162,24 +177,34 @@ border: 0;
         flex-direction: column;
 
     }
+    
+    
     .form-bg input {
         padding: 5px;
-        margin: 7px auto;
+        margin: 5px auto;
         width: 90%;
-        font-size: smaller;
+        font-size: 0.7rem;
     }
     .form-bg button{
         width: 90%;
-        font-size: smaller;
+       
+    }
+    input[placeholder|="First Name"]{
+        margin-top: 10px;
     }
     #message{
-        margin: auto;
+        margin: 5px auto;
         width: 90%;
         height: 10vh;
-    font-family: 'Anaheim', sans-serif;
+padding: 5px;  
     border: 1px solid #909090;
-    margin-bottom: 5px;
-    font-size: smaller;
+    font-size: 0.7rem;
+  
+    }
+    .form-bg button{
+        margin: 0px auto;
+        padding: 0px 10px;
+        height: 20px;
     }
 }
     /* .form-bg{

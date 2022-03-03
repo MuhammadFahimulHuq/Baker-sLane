@@ -6,12 +6,16 @@
 
 
 .mySwiper{
-  width: 65%;
+  width: 65vw;
   background-color: hsl(0, 0%, 39%);
   box-shadow: 0 3px 20px rgb(0 0 0 / 0.2);
   border-top-right-radius: 15px;
   border-bottom-left-radius:15px ;
-  height: 80vh;
+  
+}
+.swiper-pagination-bullet{
+  background-color: black !important;
+  padding: 5px !important;
 }
 .menu-category h3{
   font-family: 'Comfortaa', cursive;

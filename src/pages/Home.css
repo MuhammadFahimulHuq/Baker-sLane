@@ -37,7 +37,8 @@
   padding: 5px 75px;
   font-family: 'Anton', sans-serif;
   font-size: clamp(15px,2vw,25px);
-  background-color: #62371E;
+  background-color: #764d30;
+  background-image: linear-gradient(160deg, #764d30 0%, #8f6a4d 100%);  
   
   border-radius: 2px;
   color: white;

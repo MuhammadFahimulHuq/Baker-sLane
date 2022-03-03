@@ -15,16 +15,17 @@ import cookies from '../asset/image/cookies.jpg'
 import pennacotta from '../asset/image/pennacotta.jpg'
 import './Card.css'
 import "swiper/css/effect-cards";
-import { EffectCards } from "swiper";
+import "swiper/css/pagination";
+import { Pagination } from "swiper";
 export const Card = () => {
 
   return (
     <div>
 
-<Swiper     effect={"cards"}
-        grabCursor={true}
-        modules={[EffectCards]}
-      
+<Swiper         pagination={{
+          dynamicBullets: true,
+        }}
+        modules={[Pagination]}
         className="mySwiper"
       >
       <SwiperSlide ><div className='card'>

@@ -1,10 +1,13 @@
 .Menu{
     height: 100vh;
     overflow: hidden;
-    background-color: hsl(0, 0%, 39%);
+    background-color: #a6a6a6;
+    background-image: linear-gradient(45deg, #a6a6a6 0%, #764d30 100%);
+    
+    
 }
 .menu-title-container h3{
-font-size: clamp(1.25rem,4vw,2rem);
+ font-size: clamp(0.9rem,3vw,1.8rem);
 font-family: 'Comfortaa', cursive;
 }
 .menu-title-container h3::before{
@@ -13,8 +16,8 @@ font-family: 'Comfortaa', cursive;
     margin-right: 10px;
 }
 .menu-title-container{
-    width: 65%;
-    margin: 0 auto 3% auto;
+    width: 65vw;
+    margin: auto;
     color: white;
 }
 
