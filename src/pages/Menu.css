@@ -7,7 +7,7 @@
     
 }
 .menu-title-container h3{
- font-size: clamp(0.9rem,3vw,1.8rem);
+ font-size: clamp(1.1rem,3vw,1.8rem);
 font-family: 'Comfortaa', cursive;
 }
 .menu-title-container h3::before{
@@ -21,10 +21,3 @@ font-family: 'Comfortaa', cursive;
     color: white;
 }
 
-@media only screen and (max-width: 428px) {
- 
- 
-
- 
-
-}

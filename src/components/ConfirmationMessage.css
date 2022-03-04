@@ -1,0 +1,12 @@
+h4 {
+    font-family: 'Comfortaa', cursive;
+ 
+}
+h5{
+    font-family: 'Comfortaa', cursive;
+
+}
+#confirm{
+    padding: clamp(20px,2vw,40px);
+    text-align: center;
+}

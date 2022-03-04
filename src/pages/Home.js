@@ -5,10 +5,11 @@ import frame1 from '../asset/image/Frame2png.png'
 import { ContactNav } from '../components/ContactNav'
 import { NavbarItems } from '../components/NavbarItems'
 import video from '../asset/image/video.mp4'
+import videoSnapShot from '../asset/image/video_snapshot.jpg'
 export const Home = () => {
   return (
     <div  id='outer-container' className='home'>
-      <video autoPlay loop muted id='video'>
+      <video poster={videoSnapShot} autoPlay loop muted id='video'>
         <source src={video} type='video/mp4'/>
       </video>
      <NavbarItems pageWrapId={'page-wrap'} outerContainerId={'outer-container'}/>

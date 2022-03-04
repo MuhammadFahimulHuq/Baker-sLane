@@ -7,9 +7,9 @@ import '../components/ContactNav.css'
 
 export const ContactNav = () => {
   return <div className='icon-container'>
-    <img src={facebook} alt='facebook' className='icon'/>
-    <img src={instagram} alt='instagram'  className='icon'/>
-    <img src={mail} alt='mail'  className='icon'/>
-    <img src={phone} alt='phone'  className='icon'/>
+    <a href='facebook.com' className='icon'><img src={facebook} alt="facebook"/></a>
+    <a href='facebook.com' className='icon'> <img src={instagram} alt='instagram'/></a>
+    <a href='facebook.com' className='icon'><img src={mail} alt='mail' /></a>
+    <a href='facebook.com' className='icon'><img src={phone} alt='phone' /></a>
   </div>;
 };

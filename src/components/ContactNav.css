@@ -1,4 +1,4 @@
-.icon{
+.icon img{
     width: 35px;
   
 }
@@ -19,7 +19,9 @@
     transition: all .2s ease-in-out;
   
 }
-
+.facebook-icon{
+ 
+}
 @media only screen and (max-width: 806px) {
 .icon-container{
     width: 45vw;

@@ -21,7 +21,7 @@
 }
 .contact-title-container{
     width: 65vw;
-    margin: auto;
+    margin: 1.5% auto;
     color: white;
 }
 .contact-title-container h3::before{
@@ -30,8 +30,9 @@
     margin-right: 10px;
 }
 .contact-title-container h3{
-    font-size: clamp(0.9rem,3vw,1.8rem);
+    font-size: clamp(1.1rem,3vw,1.8rem);
 font-family: 'Comfortaa', cursive;
+
 }
 .contact h3{
   
@@ -127,7 +128,6 @@ user-select: none;
 -webkit-user-select: none;
 vertical-align: top;
 white-space: nowrap;
-
 z-index: 9;
 border: 0;
 
@@ -164,8 +164,9 @@ border: 0;
 }
 .review-text h3::after{
     content: url('../asset/image/heart.png');
+    width: clamp(10px,2vw,20px);
 }
-@media only screen and (max-width: 428px) {
+@media only screen and (max-width: 770px) {
    
     .line {
         border-bottom: 2px solid #909090;
@@ -187,7 +188,7 @@ border: 0;
     }
     .form-bg button{
         width: 90%;
-       
+        margin-bottom: 10px;
     }
     input[placeholder|="First Name"]{
         margin-top: 10px;
@@ -205,6 +206,7 @@ padding: 5px;
         margin: 0px auto;
         padding: 0px 10px;
         height: 20px;
+        margin-bottom: 10px;
     }
 }
     /* .form-bg{
